@@ -1,6 +1,54 @@
 /* Your styles go here! */
-h1 {
-  /* Demo style -- remove me and write your own */
-  font-size: 48px;
-  color: purple;
+
+:root {
+  --paper: #fffaf2;
+  --ink: #050606;
+  --accent: #c6402d;
+  --accent-soft: #f0d1ae;
 }
+
+
+
+.recipe-page {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+.recipe-header {
+    background-color: #9f3028;
+    border: 6px double #e3bd67;
+    box-shadow: 0 5px 0 #6a241e;
+  padding: 1.5em 1em;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+body {
+  background-color:rgb(249, 248, 232);
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  color: #fff4d6;
+  text-shadow: 2px 2px 0 #6a241e;
+  font-family:cursive;
+}
+
+.recipe-steps,
+.recipe-steps ol {
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem 0 2rem;
+}
+
+
+
+
