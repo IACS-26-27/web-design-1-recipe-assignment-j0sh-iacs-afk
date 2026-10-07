@@ -3,7 +3,7 @@
 :root {
   --paper: #fffaf2;
   --ink: #050606;
-  --accent: #c6402d;
+  --accent: #e8814e;
   --accent-soft: #f0d1ae;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .recipe-header {
-    background-color: #9f3028;
+    background-color: #ad2f2f;
     border: 6px double #e3bd67;
     box-shadow: 0 5px 0 #6a241e;
   padding: 1.5em 1em;
